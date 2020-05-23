@@ -32,18 +32,6 @@ class _ItemCarouselWidget extends State<ItemCarouselWidget> {
             child: new Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
-                // Container(
-                //   decoration: new BoxDecoration(
-                //       image: new DecorationImage(
-                //         image: new NetworkImage(widget.item.image.imageUri),
-                //         fit: BoxFit.cover,
-                //       ),
-                //       borderRadius: BorderRadius.only(
-                //           topLeft: Radius.circular(20.0),
-                //           topRight: Radius.circular(20.0))),
-                //   child: null,
-                //   height: 200.0,
-                // ),
                 new Padding(
                   padding: EdgeInsets.all(10.0),
                   child: Column(
